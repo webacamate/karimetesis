@@ -1,7 +1,23 @@
+.flexCenter {
+    display: flex;
+    justify-content: center;
+}
+
 .portada {
+    width: 100%;
     height: 850px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: honeydew;
+    text-align: center;
+}
+
+.indice {
+    background-color: white;
+    width: 90%;
+    border-radius: 14px;
+    translate: 0 -50px;
+    box-shadow: 3px 3px 10px gainsboro;
 }
